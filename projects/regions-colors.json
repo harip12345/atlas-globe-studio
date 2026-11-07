@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "name": "Arsiran, pulau, dan warna bumi",
+  "brand": "ATLAS / EARTH STORIES",
+  "accent": "#f9ae65",
+  "theme": "satellite",
+  "grid": true,
+  "borders": true,
+  "labels": true,
+  "captions": true,
+  "route": false,
+  "scenes": [
+    {
+      "id": "2ebf5f25-a2fb-4461-94e3-ff8b858239df",
+      "title": "Warnai wilayah.\nPerjelas cerita.",
+      "eyebrow": "SOROTAN NEGARA",
+      "narration": "Sorotan ini mengikuti batas negara Indonesia pada peta.",
+      "location": "Indonesia",
+      "lat": -2.5,
+      "lon": 118,
+      "altitude": 0.95,
+      "duration": 4,
+      "transition": 0.5,
+      "tilt": 0,
+      "motion": "hold",
+      "object": "none",
+      "stat": "INDONESIA",
+      "statLabel": "ARSIR DIAGONAL · BATAS NEGARA",
+      "highlight": {
+        "regions": [
+          {
+            "type": "country",
+            "id": "360"
+          }
+        ],
+        "color": "#ffc56c",
+        "opacity": 0.85,
+        "style": "hatch",
+        "pulse": false
+      },
+      "effect": "radar"
+    },
+    {
+      "id": "211d64ef-9e74-42eb-8398-e6d371c9a71b",
+      "title": "Satu pulau.\nSatu sorotan.",
+      "eyebrow": "SOROTAN PULAU",
+      "narration": "Sekarang hanya pulau Jawa yang diberi warna, dengan efek penanda lokasi.",
+      "location": "Jawa",
+      "lat": -7.3,
+      "lon": 110,
+      "altitude": 0.42,
+      "duration": 4,
+      "transition": 0.5,
+      "tilt": 0,
+      "motion": "hold",
+      "object": "none",
+      "stat": "JAWA",
+      "statLabel": "WARNA PENUH · BEACON",
+      "highlight": {
+        "regions": [
+          {
+            "type": "island",
+            "id": "java"
+          }
+        ],
+        "color": "#ffac70",
+        "opacity": 0.85,
+        "style": "solid",
+        "pulse": false
+      },
+      "effect": "beacon"
+    },
+    {
+      "id": "ab51bc8b-55d6-4856-9d46-df8213032efd",
+      "title": "Pulau melintasi\nbatas negara.",
+      "eyebrow": "SATU PULAU, BEBERAPA NEGARA",
+      "narration": "Pulau Kalimantan atau Borneo disorot secara utuh, melewati batas negara.",
+      "location": "Kalimantan / Borneo",
+      "lat": 0.8,
+      "lon": 114,
+      "altitude": 0.65,
+      "duration": 4,
+      "transition": 0.5,
+      "tilt": 0,
+      "motion": "hold",
+      "object": "none",
+      "stat": "BORNEO",
+      "statLabel": "GARIS TEPI · SELURUH PULAU",
+      "highlight": {
+        "regions": [
+          {
+            "type": "island",
+            "id": "borneo"
+          }
+        ],
+        "color": "#8af1db",
+        "opacity": 1,
+        "style": "outline",
+        "pulse": true
+      },
+      "effect": "none"
+    }
+  ],
+  "surface": {
+    "brightness": 1.5,
+    "landBrightness": 1.3,
+    "oceanBrightness": 1.25,
+    "landColor": "#91b776",
+    "oceanColor": "#1c7399",
+    "tintStrength": 0.55
+  }
+}

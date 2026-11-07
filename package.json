@@ -1,0 +1,26 @@
+{
+  "name": "atlas-globe-studio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Editable, deterministic globe motion graphics for short videos",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/*.test.js",
+    "render": "node scripts/render-demo.js",
+    "check": "node scripts/verify.js",
+    "agent": "node scripts/agent.js",
+    "build:geo": "node scripts/build-geolib.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "d3-geo": "3.1.1",
+    "playwright-core": "1.65.0",
+    "three": "0.187.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.12"
+  }
+}

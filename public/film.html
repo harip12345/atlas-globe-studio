@@ -1,0 +1,5 @@
+<!doctype html><html><head><meta charset="utf-8"><style>html,body{margin:0;background:#050c14}canvas{display:block;max-width:100vw}</style></head><body><canvas id="film"></canvas><script type="module">
+import {GlobeFilm} from './engine.js';
+import {demo} from './model.js';
+try{window.film=new GlobeFilm(document.querySelector('canvas'));window.film.setProject(demo());window.filmReady=window.film.ready.then(()=>window.film.draw(0)).catch(e=>{window.filmError=e.message;throw e;});}catch(e){window.filmError=e.message;}
+</script></body></html>
